@@ -233,7 +233,7 @@ opacity: .64;
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td class="content pt-0" style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 0 48px 40px;">
+                                                        <td class="content pt-0 border-bottom" style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; border-bottom-width: 1px; border-bottom-color: #f0f0f0; border-bottom-style: solid; padding: 0 48px 40px;">
                                                             <table class="row mt-xl" cellpadding="0" cellspacing="0" style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; border-collapse: collapse; width: 100%; table-layout: fixed; margin-top: 48px;">
                                                                 <tr>
                                                                     <td class="col text-center" style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;" align="center" valign="top">
@@ -275,8 +275,67 @@ opacity: .64;
                                                             </table>
                                                         </td>
                                                     </tr>
+                                                    <!-- Start Pause stuff -->
                                                     <tr>
-                                                        <td class="content border-top" style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; border-top-width: 1px; border-top-color: #f0f0f0; border-top-style: solid; padding: 40px 48px;">
+                                                        <td class="content pb-sm" style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 40px 48px 8px;">
+                                                            <h4 style="font-weight: 600; font-size: 16px; margin: 0 0 .5em;">Pause Detail</h4>
+                                                            <table class="table list mt-lg" cellspacing="0" cellpadding="0" style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; border-collapse: collapse; width: 100%; margin-top: 24px;">
+                                                                <tr>
+                                                                    <th colspan="2" style="text-transform: uppercase; font-weight: 600; color: #9eb0b7; font-size: 12px; padding: 0 0 4px;">Reason</th>
+                                                                    <th class="text-right" style="text-transform: uppercase; font-weight: 600; color: #9eb0b7; font-size: 12px; padding: 0 0 4px;" align="right">Duration</th>
+                                                                </tr>
+                                                                <tr class="list-item">
+                                                                    <td style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 0px 8px 0;">
+                                                                        <img src="https://miscdts.s3.amazonaws.com/voxo-assets/email/images/icons/break.png" width="20" height="25" alt="" style="line-height: 100%; outline: none; text-decoration: none; vertical-align: baseline; font-size: 0; border: 0 none;" />
+                                                                    </td>
+                                                                    <td style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 12px 8px 0px;">Break</td>
+                                                                    <td class="text-right" style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 0 8px 12px;" align="right">23</td>
+                                                                </tr>
+                                                                <tr class="list-item" style="border-top-width: 1px; border-top-color: #f0f0f0; border-top-style: solid;">
+                                                                    <td style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 0px 8px 0;">
+                                                                        <img src="https://miscdts.s3.amazonaws.com/voxo-assets/email/images/icons/lunch.png" width="20" height="25" alt="" style="line-height: 100%; outline: none; text-decoration: none; vertical-align: baseline; font-size: 0; border: 0 none;" />
+                                                                    </td>
+                                                                    <td style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 12px 8px 0px;">Lunch</td>
+                                                                    <td class="text-right" style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 0 8px 12px;" align="right">22</td>
+                                                                </tr>
+                                                                <tr class="list-item" style="border-top-width: 1px; border-top-color: #f0f0f0; border-top-style: solid;">
+                                                                    <td style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 0px 8px 0;">
+                                                                        <img src="https://miscdts.s3.amazonaws.com/voxo-assets/email/images/icons/accountreview.png" width="20" height="25" alt="" style="line-height: 100%; outline: none; text-decoration: none; vertical-align: baseline; font-size: 0; border: 0 none;" />
+                                                                    </td>
+                                                                    <td style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 12px 8px 0px;">Account Review</td>
+                                                                    <td class="text-right" style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 0 8px 12px;" align="right">12</td>
+                                                                </tr>
+                                                                <tr class="list-item" style="border-top-width: 1px; border-top-color: #f0f0f0; border-top-style: solid;">
+                                                                    <td style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 0px 8px 0;">
+                                                                        <img src="https://miscdts.s3.amazonaws.com/voxo-assets/email/images/icons/meeting.png" width="20" height="25" alt="" style="line-height: 100%; outline: none; text-decoration: none; vertical-align: baseline; font-size: 0; border: 0 none;" />
+                                                                    </td>
+                                                                    <td style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 12px 8px 0px;">Meeting</td>
+                                                                    <td class="text-right" style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 0 8px 12px;" align="right">5</td>
+                                                                </tr>
+                                                                <tr class="list-item" style="border-top-width: 1px; border-top-color: #f0f0f0; border-top-style: solid;">
+                                                                    <td style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 0px 8px 0;">
+                                                                        <img src="https://miscdts.s3.amazonaws.com/voxo-assets/email/images/icons/personal.png" width="20" height="25" alt="" style="line-height: 100%; outline: none; text-decoration: none; vertical-align: baseline; font-size: 0; border: 0 none;" />
+                                                                    </td>
+                                                                    <td style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 12px 8px 0px;">Personal</td>
+                                                                    <td class="text-right" style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 0 8px 12px;" align="right">9</td>
+                                                                </tr>
+                                                                <tr class="list-item" style="border-top-width: 1px; border-top-color: #f0f0f0; border-top-style: solid;">
+                                                                    <td style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 0px 8px 0;">
+                                                                        <img src="https://miscdts.s3.amazonaws.com/voxo-assets/email/images/icons/other.png" width="20" height="25" alt="" style="line-height: 100%; outline: none; text-decoration: none; vertical-align: baseline; font-size: 0; border: 0 none;" />
+                                                                    </td>
+                                                                    <td style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 12px 8px 0px;">Other</td>
+                                                                    <td class="text-right" style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 8px 0 8px 12px;" align="right">2</td>
+                                                                </tr>
+                                                                <tr class="list-item" style="border-top-width: 1px; border-top-color: #f0f0f0; border-top-style: solid;">
+                                                                    <td colspan="2" class="text-right font-strong h4 m-0" style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 16px; margin: 0; padding: 8px 12px 0 0;" align="right">Total</td>
+                                                                    <td class="font-strong h4 m-0 text-right" style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; font-weight: 600; font-size: 16px; margin: 0; padding: 8px 0 0 12px;" align="right">2hr 30m</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- End Pause stuff -->
+                                                    <tr>
+                                                        <td class="content" style="font-family: Open Sans, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Helvetica, Arial, sans-serif; padding: 40px 48px;">
                                                             <h4 style="font-weight: 600; font-size: 16px; margin: 0 0 .5em;">$ExtensionName Details</h4>
                                                             <p style="margin: 0 0 1em;">7AM Aug 23 2018 - 6PM Aug 23 2018 CST</p>
                                                             </td></tr><tr>
